@@ -1,5 +1,3 @@
-const entry = [1, 5, 1, 1, 1, 10, 15, 20, 100];
-
 function findMinimum(coins) {
 
     coins.sort((a, b) => a - b);
@@ -15,4 +13,4 @@ function findMinimum(coins) {
     return currentValue + 1;
 }
 
-console.log(findMinimum(entry));
+module.exports = findMinimum;

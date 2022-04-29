@@ -1,5 +1,3 @@
-const values = [-10, -5, 0, 5, 10];
-
 function squareArray(arr) {
     return arr.map(e => {
         return Math.pow(e, 2);
@@ -8,4 +6,4 @@ function squareArray(arr) {
     });
 }
 
-console.log(squareArray(values));
+module.exports = squareArray

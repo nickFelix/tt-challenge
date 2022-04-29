@@ -1,0 +1,22 @@
+{
+  "name": "tt-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "non-constructibleChallenge.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickFelix/tt-challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nickFelix/tt-challenge/issues"
+  },
+  "homepage": "https://github.com/nickFelix/tt-challenge#readme",
+  "dependencies": {
+    "jest": "^28.0.3"
+  }
+}
